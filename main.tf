@@ -8,7 +8,7 @@ terraform {
     bucket = "s3_bucket_name = b69fdde2-fcd3-df7a-b05a-d626942e31b7-backend"
     key    = "terraform/webapp/terraform.tfstate"
     region = "us-east-1"
- }
+  }
 }
 
 provider "aws" {
