@@ -186,7 +186,7 @@ resource "aws_launch_template" "foobar" {
   instance_type = "t2.micro"
 }
 
-resource "aws_autoscaling_group" "bar" {
+resource "aws_autoscaling_group" "bar1" {
   availability_zones = ["us-east-1a"]
   desired_capacity   = 1
   max_size           = 2
